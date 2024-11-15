@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+}
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  justify-content: space-evenly;
+}
+nav li:first-child {
+  font-size: 25px;
+  /* text-align: center; */
+}
+nav button {
+  height: 50px;
+  width: 130px;
+  /* border: 1px solid black; */
+  margin-right: 40px;
+  background-color: transparent;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+}
+nav button:last-child {
+  background-color: #1b4942;
+  color: white;
+}
+.pag1 {
+  height: 75%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  position: relative;
+}
+.pag1 .contant {
+  height: 80%;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  /* background-color: red; */
+}
+.pag1 .contant h1 {
+  margin-top: 20px;
+  font-size: 60px;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 60px;
+}
+.pag1 .contant p {
+  font-size: 17px;
+  margin: 20px 0px;
+}
+.pag1 .contant button {
+  height: 65px;
+  width: 150px;
+  background-color: #3becb9;
+  color: black;
+  border: none;
+
+  font-size: 17px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.pag2top {
+  width: 100%;
+  height: 30%;
+  border-top: 2px solid #3becb9;
+  border-bottom: 2px solid #3becb9;
+  background-color: #222222;
+  display: flex;
+  /* justify-content: center; */
+}
+.pag2top .left {
+  width: 50%;
+}
+.pag2top .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/66ec4790c70509d60dc9738c_Creator%27s%20Guide%20-%20alt%20(1)-p-500.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.pag2top .right {
+  width: 40%;
+  color: white;
+  margin-top: 30px;
+}
+.pag2top .right h2 {
+  color: #3becb9;
+}
+/* #3becb9 */
+.pag2top .right p {
+  margin-top: 20px;
+}
+.pag2main {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  padding-top: 20px;
+}
+.pag2main h2,
+.pag2main h3 {
+  font-size: 58px;
+  text-align: center;
+  width: 85%;
+  margin: 30px auto;
+}
+.pag2main h3 {
+  border: 3px solid #ffaf8d;
+  border-radius: 35px;
+  width: fit-content;
+  padding: 10px;
+}
+.pag2bottom {
+  width: 100%;
+  height: 20%;
+  background-color: #8d1a5f;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.pag2bottom .contant {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  margin: 0px 30px;
+}
+.pag2bottom .contant .img {
+  /* background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669138f29e3833cdfad0143a_Group%2035349.svg"); */
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.contant1 .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669138f29e3833cdfad0143a_Group%2035349.svg");
+}
+.contant2 .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669138f29e3833cdfad01444_Group%2035341.svg");
+}
+.contant3 .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669138f29e3833cdfad01430_Group%2035340.svg");
+}
+.pag3 {
+  width: 100%;
+  height: 150%;
+  background-color: #fbf8f2;
+  padding-top: 80px;
+}
+.pag3 > h2 {
+  font-size: 40px;
+  text-align: center;
+  /* margin-top: 60px; */
+}
+.pag3 > p {
+  font-size: 22px;
+  text-align: center;
+  width: 50%;
+  /* margin-left: 450px; */
+  margin: 10px auto;
+}
+.cardcontainer {
+  width: 85%;
+  height: 120vh;
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 10px;
+}
+.card {
+  height: 400px;
+  width: 350px;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+}
+.cardimg {
+  width: 100%;
+  height: 50%;
+  background-color: #4025c9;
+}
+
+.cardimg1 {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/66b4f7c34881ea791f3a50a3_onlineCoursethumbnail-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cardimg2 {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669813c379171adc010549aa_digital-downloads-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cardimg3 {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669813c39cdfeb127f75f52f_coaching-product-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cardimg4 {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669813c3daf869b6e3f5e288_memberships-product-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.cardimg5 {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/669813c35284666ab5017ed3_community-hp-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.card p {
+  padding-top: 10px;
+}
+.card p:last-child {
+  border-bottom: 3px solid black;
+  width: fit-content;
+}
+.pag4 {
+  width: 100%;
+  height: 75%;
+  background-color: #1b4942;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.pag4 .left {
+  width: 35%;
+  height: 100%;
+  /* background-color: red; */
+  padding-top: 120px;
+}
+.pag4 .left h2 {
+  font-size: 40px;
+}
+.pag4 .left p {
+  margin-top: 20px;
+}
+.pag4 .left button {
+  height: 50px;
+  width: 180px;
+  background-color: #3becb9;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.pag4 .right {
+  width: 35%;
+  height: 100%;
+  /* background-color: green; */
+  padding-top: 30px;
+}
+.pag4 .right .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/66918ef6c1fbe23491d7c8b1_freeplan_illo_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80%;
+  width: 80%;
+}
+.pag5 {
+  width: 100%;
+  height: 80%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding-top: 130px;
+}
+.pag5 .left {
+  height: 60%;
+  width: 20%;
+  /* background-color: red; */
+}
+.pag5 .left .img {
+  background: url("https://cdn.prod.website-files.com/65393b768d06ee4c16d24a0b/66981428ebf42d709d4a84a0_Design-Burns-p-500.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+.pag5 .right {
+  height: 60%;
+  width: 50%;
+  /* background-color: greenyellow; */
+}
+.pag5 .right h2 {
+  font-size: 28px;
+}
+
+.pag5 .right p {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+footer {
+  width: 100%;
+  height: 65%;
+  background-color: #222222;
+  color: white;
+  /* display: flex; */
+  justify-content: center;
+}
+footer .top {
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .top .left {
+  /* background-color: red; */
+  height: 100%;
+  width: 35%;
+}
+footer .top .left h2 {
+  font-size: 30px;
+}
+footer .top .left p {
+  margin-top: 40px;
+  font-size: 20px;
+}
+footer .top .right {
+  height: 100%;
+  width: 40%;
+  /* background-color: #4025c9; */
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .top .right ul li {
+  list-style: none;
+  margin-top: 20px;
+  /* color: red; */
+}
+footer .top .right ul li:first-child {
+  font-weight: 800;
+}
+.iconcontener {
+  margin-top: 30px;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.iconcontener i {
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 35px;
+  /* padding: auto; */
+  padding: 0 auto;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+}
